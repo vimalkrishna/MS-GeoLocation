@@ -13,7 +13,7 @@ in a seperate JVM.
 ```
 
 ### application.properties
-This needs URL of a Messaging QUEUE that we can have indepedent running and not Spring-Boot embedded one.
+This needs URL of a Messaging QUEUE that we can have independent running and not a Spring-Boot embedded one.
 ```
 spring.activemq.broker-url=tcp://localhost:61616
 ```
