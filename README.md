@@ -25,8 +25,7 @@ spring.activemq.broker-url=tcp://localhost:61616
 
 ## Development 
 
-We are reading GPX data (lat="48.0865250" lon="11.5978280") from a text file with a scanner and we run that in a loop to send to Message broker.
-by creating a ConcurrentHashMap and USE JmsTemplate class from Spring to use convertAndSend() to send a JMS MAP message to the Broker.
+We are reading GPX data (lat="48.0865250" lon="11.5978280") from a text file with a scanner and we run that in a loop to send to Message broker. By creating a ConcurrentHashMap and using JMSTemplate class from Spring to use convertAndSend() to send a JMS MAP message to the Broker.
 
 ## Built With
 
